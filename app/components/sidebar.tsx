@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
-import ChatGptIcon from "../icons/chatgpt.svg";
+import FourierLogoIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import Locale from "../locales";
@@ -95,7 +95,7 @@ export function SideBar(props: { className?: string }) {
           Build your own AI assistant.
         </div>
         <div className={styles["sidebar-logo"]}>
-          <ChatGptIcon />
+          <FourierLogoIcon />
         </div>
       </div>
 
